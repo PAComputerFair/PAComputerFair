@@ -1,0 +1,188 @@
+body{
+    background-color: #448AFF;
+}
+
+.header{
+    font-family:'Titillium Web', sans-serif !important;
+}
+.subheader{
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+.body{
+    font-family: 'Abel', sans-serif !important;
+}
+.hanging-indent {
+	padding-left: 50px;
+	padding-right: 20px;
+	text-indent: -30px;
+}
+.modal-body a{
+    color:blue;
+}
+.modal-dialog{
+    overflow-y: initial !important;
+   
+}
+.modal-body{
+    height: 400px;
+    overflow-y: auto;
+}
+.modal-text p{
+	color: #000;
+	font-size: 14px;
+}
+
+.well{
+    margin-top:200px;
+    
+    width:300px;
+    height:200px;
+    background-color: #0288D1;
+    border-color: #0288D1;
+    color:white;
+    margin-left: 15%;
+    font-family: Lobster Two;
+    font-size:50px;
+}
+
+ hr{
+	border-width: 3px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+	border-color: #8FF568;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px !important;
+    border: 0;
+    margin-bottom: 0;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    background: rgba(35,35,35, 0.7);
+}
+
+a{
+    color: black;
+     font-family: 'Raleway';
+}
+.dropdown-menu {
+    width: 100% !important;
+    padding-top: 0;
+   padding-bottom: 0;
+   box-shadow: none;
+   text-shadow: none;
+    
+    
+}
+.navbar-nav > li > .dropdown-menu > li > a:hover{    background-color: #666865 !important; color:black !important; }
+.divider{
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+   
+    
+}
+.divider-first{
+    margin-top:2px !important;
+}
+.divider-last{
+    margin-bottom:2px !important;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 25px;
+    line-height: 20px;
+    color:white;
+}
+
+.bg-home{
+    
+    background: url("https://jessicasellphotography.files.wordpress.com/2013/06/pittsburgh-panorama-1_small.jpg");
+    background-repeat:no-repeat;
+   
+    background-size:cover;
+    background-position:center;
+}
+
+.title{
+    padding-top:200px;
+    color:white;
+    font-size:100px;
+    text-shadow: 3px 3px black;
+    opacity:0;
+    font-family: Raleway;
+}
+.sub{
+    padding-top:40px;
+    color:white;
+    font-size:50px;
+    font-family: Lobster;
+    margin-left: 38%;
+
+}
+
+ 
+img.bottom{
+    opacity:0;
+}
+
+.well:hover img.bottom{
+  opacity:1;
+}
+
+
+.genInfo-home{
+    background-color:rgb(251,255,297);
+     height:100vh;
+    
+}
+.genInfo-maintext{
+    color:black;
+    font-size:100px;
+    text-shadow: 1px 1px black;
+     font-family: Raleway;
+    
+}
+.genInfo-text{
+    color:black;
+    
+   
+     font-family: Raleway;
+    
+}
+.nav-pills a:hover{
+    text-decoration:none;
+    color:#FFFFFF
+}
+.nav-tabs > li, .nav-pills > li {
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+	text-align:center;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover{
+	background-color: #424242 !important;
+}
+
+.nav-pills > li > a:focus, .nav-pills > li > a:hover {
+	background-color: #424242;
+}
+
+.well img {
+  position:absolute;
+  left:45%;
+  top:60%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  
+}
