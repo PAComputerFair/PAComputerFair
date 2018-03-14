@@ -1,8 +1,8 @@
 
     
-    var images = ['images/cloud9.jpg','images/dreamweaver.png','images/frontpage.png'];
-    var caption = ['Text Editors such as Cloud9','Adobe Dreamweaver','Frontpage'];
-    var link = ['https://aws.amazon.com/blogs/aws/aws-cloud9-cloud-developer-environments/','http://www.adobe.com/products/dreamweaver.html','https://www.microsoft.com/en-us/download/details.aspx?id=8139'];
+    var images = ['images/cloud9.jpg','images/dreamweaver.png'];
+    var caption = ['Text Editors such as Cloud9','Adobe Dreamweaver'];
+    var link = ['https://aws.amazon.com/blogs/aws/aws-cloud9-cloud-developer-environments/','http://www.adobe.com/products/dreamweaver.html'];
     
     function next(){
         var current = document.getElementById("change").getAttribute("src");
