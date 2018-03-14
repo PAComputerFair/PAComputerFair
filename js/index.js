@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	 document.getElementById("topcontainer").style.height= ($(window).height() + 1280- $(window).width());
+	
     var controller = new ScrollMagic.Controller();
     var tween = TweenMax.to(".title",3,{opacity:1,y:-35,delay:.75,ease:Power2.easeOut});
     var ourScene = new ScrollMagic.Scene({
