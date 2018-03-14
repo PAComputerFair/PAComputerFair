@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PA Computer Fair</title>
+       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+       <link rel="stylesheet" href="css/genInfo.css">
+       <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+   
+        
+       <link rel="stylesheet" href="css/imagehover.min.css">
+ <link rel="stylesheet" href="css/lightbox.css">
+        <script src="js/lightbox.js"></script>
+    </head>
+    <body>
+        
+           
+<!-- nav bar -->
+   <nav class="navbar navbar-inverse ">
+    <div class="container">
+      <div class="navbar-header"> 
+        <a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
+          <span class="icon-bar menu-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>  
+        <a class="navbar-brand" href="index.html" style="color: white; font-family: 'Raleway'; font-size:22px;"><b>PA Computer Fair</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="nav navbar-nav navbar-right ">
+          
+          <li ><a href="genInfo.html" style="color:white;font-size:18px;"><b>General Info</b></a></li>
+         
+         <li class="dropdown">
+          <a href="#" style="color: white ;font-size:18px;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Categories and Rules</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="animation.html" style="font-size:18px;padding-bottom:10px;padding-top:10px  ">Animation</a></li>
+             
+            <li><a href="computerfairlogo.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Computer Fair Logo</a></li>
+             
+            <li><a href="digitalmovie.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Digital Movie</a></li>
+             
+            <li><a href="graphicdesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Graphic Design</a></li>
+             
+            <li><a href="programming.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Programming</a></li>
+             
+            <li><a href="webpagedesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Web Page Design</a></li>
+            
+          </ul>
+        </li>
+          <li ><a href="awards.html" style="color: white;font-size:18px;"><b>Awards</b></a></li>
+          <li><a href="regionalInfo.html" style="color: white;font-size:18px;"><b>Regional Info</b></a></li>
+          <li><a href="statecompetition.html" style="color: white;font-size:18px;"><b>State Info</b></a></li>
+          <li><a href="registration.html" style="color: white;font-size:18px;"><b>Registration</b></a></li>
+          <li><a href="awardwinner.html" style="color:white;font-size:18px;"><b>Results</b></a></li>
+          
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+<!--big text-->
+ <div id="general" class="container-fluid text-center "style="padding-top:10px;padding-bottom:50px">
+  <h1 class="header" style="font-size:65px;padding-top:35px;padding-bottom:10px;color:#454545;" align="center"><b>General Information</b></h1>
+    <div class="container-fluid " style="width:100%" >
+      <ul class="nav nav-pills" style="padding-top:30px">
+          <li class="active"><a data-toggle="pill" href="#purpose">Purpose</a></li>
+          <li><a data-toggle="pill" href="#eligibility">Eligibility</a></li>
+          <li><a data-toggle="pill" href="#cr">Copyright Requirements</a></li>
+          <li><a data-toggle="pill" href="#hardsoft">Hardware/Software</a></li>
+          <li><a data-toggle="pill" href="#judge">Judging Criteria</a></li>
+          <li><a data-toggle="pill" href="#registration">Registration</a></li>
+          
+      </ul>
+
+      <div class="tab-content" style="padding-bottom:30px">
+            <div id="purpose" class="tab-pane fade in active text-left ">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+               <h2 class="body"style="padding-top:15px;">The Pennsylvania High School Computer Fair is an annual event that highlights Pennsylvania 
+               high school students' application skills and computer knowledge.
+               Students are able to unleash their creativity, learn how to convey information more dynamically, and enhance the learning process.</h2>
+               
+              
+             </div>
+             <div class="col-sm-6 text-center" style="padding-top:70px">
+                  <a  href="images/pacflogo.png" data-lightbox="palogo"data-title="PA Computer Fair's new logo designed by Madison Snyder"><img id="myImg" src="images/pacflogo.png" style="height:175px;width:300px;padding-bottom:10px;display: block; margin: auto;"></a>
+               <p style="font-size:10px;padding-bottom:20px">Logo winner Madison Snyder, Berks Career & Technology Center</p>
+             </div>
+            </div>
+              <div id="eligibility" class="tab-pane fade ">
+                <div class="row" style="padding-top:30px">
+                <div class="col-sm-6">
+                 <h2 class="subheader">Participation is open to any student enrolled:</h2>
+                
+                 
+                 </div>
+                 <div class="col-sm-6">
+                     <ul align="left" style="padding-top:20px"class="body">
+                   <li>in grades 9-12</li>
+                   <li>in a public or private school</li>
+                   <li>in a state-approved home school program</li>
+                   <li>within the geographic boundaries served by a sponsoring intermediate unit</li>
+                 </ul>
+                   
+                   
+                 </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-sm-6" style="padding-top:35px">
+                         <h2 class="subheader">Participation selection process:</h2>
+
+                     </div>
+                     <div class="col-sm-6"  style="padding-top:20px">
+                         <ul align="left" style="padding-top:40px"class="body">
+                     <li>Local competitions and/or selection process-- Local high schools
+                     will be responsible for selecting the students who will advance
+                     to regionals</li>
+                     <li>
+                       All projects must be new or significantly changed over previous year entries.
+                       The narrative description 
+                       must describe the enhancements to a project that was previously entered.
+                     </li>
+                     <li>
+                       Regional competition-- Each intermediate 
+                       unit will designate the number of projects eligible for regionals.
+                     </li>
+                     <li>
+                       State competition -- Tuesday May 22, 2018 at <a style="color:blue"href="https://www.dickinson.edu/" target="_blank">Dickinson College</a>
+                      , Carlisle, PA. There will be no entrance fee charged to either the school district
+                       or student to participate in the state competition.
+                     </li>
+                   </ul>
+                     </div>
+                 </div>
+              </div>
+              <div id="cr"class="tab-pane fade ">
+                <div class="col-sm-6 text-left" style="padding-top:35px">
+                  <p class="body" style="padding-bottom:15px">The Pennsylvania Computer Fair, although educational,
+                  removes the student work from the classroom and therefore requires the student to get permission from the owner to use any copyrighted music, video, graphics, etc.
+                  Fair use does NOT apply. Remember to credit music or items that were created by yourself or friends as well.</p>
+                  <p class="body" style="padding-bottom:15px"><b>Display boards or other items that are included with, but not part of, the project may not contain copyrighted material. Display boards are not judged for
+                  appearance, however, they will be inspected and can cause the project to be disqualified if copyrighted material is found.</b></p>
+                  <p  class="body" >
+                    The Copyright Signoff form, Project Narrative/Summary, and Photo Release form must be combined into one file for 
+                    your convenience (Computer Fair Participation Packet). This completed packet <b>MUST</b> accompany every project.
+                    Click <a href="http://www.pacomputerfair.org/resources/ParticipationPacket_2013.pdf" style="color:blue"><i>here</i></a> to download.
+                  </p>
+                </div>
+                <div class="col-sm-6" style="padding-top:25px;padding-bottom:30px">
+                  <p>
+                  <video width="70%" height="70%" controls>
+                    <source src="http://www.pacomputerfair.org/video/copyright_webinar.mp4" type="video/mp4">
+                        
+                  </video><br/ >
+                  <p class="body"style="padding-top:5px;">
+                  Recording of webinar given by Kim Breuninger of Chester County Intermediate Unit that examines copyright requirements at the computer fairs.
+                  </p>
+                </div>
+                
+             
+             
+      </div>
+       <div id="hardsoft"class="tab-pane fade in ">
+           <div class="row">
+    
+                  <div class="col-sm-6 text-left body" style="padding-top:75px;font-size:15px">
+                      
+                      <ul>
+                          <li>
+                              Hardware and software requirements for the regional competitions will be determined by the individual intermediate units.
+                          </li>
+                          <li>
+                              All hardware and software will be provided by the student or school district for the state competition.
+                          </li>
+                          <li>
+                              Internet connections will be provided at the State competition.
+                          </li>
+                          <li>
+                              Each project must have its own computer, if one is required for that category. No projects will share a single computer at the state competition.
+                          </li>
+                          <li>
+                              Each project may bring only one computer.
+                          </li>
+                          <li>
+                              At the state competition, students must provide a power strip for their computer. Extension cords will be provided.
+                          </li>
+                      </ul>
+                      
+                  </div>
+                  <div class="col-sm-6" style="padding-top:35px">
+                      <img src="https://www.goodfreephotos.com/albums/vector-images/black-router-vector-art.png" style="height:50%;width:50%;display:block;margin:0 auto">
+                      
+                     <p class="subheader"style="padding-top:10px;font-size:15px">REMEMBER! Internet connection <b><i>IS</i></b> provided at the State Competition.</p>
+                  </div>
+                  </div>
+                  <div class="row">
+                      <div class='col-sm-6'>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Simple_Monitor_Icon.svg/2000px-Simple_Monitor_Icon.svg.png" style="height:50%;width:50%;display:block;margin:0 auto;">
+                         <p class="subheader" style="padding-top:10px;font-size:15px">REMEMBER! Monitors can be <b><i>NO LARGER</i></b> than 24 by 24 inches.</p>
+                      </div>
+                  <div class="col-sm-6 text-left body"style="padding-top:55px;font-size:15px">
+                      <ul>
+                          <li>
+                              <b>The logo and graphic design categories will not be allowed to bring a computer or have access to electric at the state fair. Students must use a computer to develop their project, but only the end product and a descriptive narrative of the project development will be displayed.</b>
+                          </li>
+                          <li>
+                              3D graphics must be in print form to be eligible
+                          </li>
+                          <li>
+                              Digital movie projects may bring a single computer and monitor or a DVD. A DVD player and monitor will be supplied at the state competition for the judges to view the projects.
+                          </li>
+                          <li>
+                              Displays and monitors must not exceed 24 inches.
+                          </li>
+                          <li>
+                              Space will be assigned and limited to 3 square feet per project.
+                          </li>
+                          <li>
+                              Narrative descriptions are required for all projects in all categories. They must be detailed to provide judges with information to fairly judge the project.
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              </div>
+              
+              <div id="judge" class="tab-pane fade in text-left ">
+                 <div class="col-sm-1"></div>
+                  <div class="col-sm-4 body" style="padding-top:35px;">
+                      <ul >
+                          <li style="font-size:20px">
+                              Preliminary judging: a minimum of two judges will view the project to determine a group of finalists.
+                          </li>
+                          <li style="font-size:20px">
+                              Final judging: All judges will view each of the finalists projects and may require the students to answer questions.
+                          </li>
+                          <li style="font-size:20px">
+                              All judging <a href="#" style="color:blue">rubrics</a> are posted on this website.
+                          </li>
+                          <li style="font-size:20px">
+                              Judges may not have a direct association with the participants.
+                          </li>
+                          <li style="font-size:20px">
+                              Judges' decisions are final.
+                          </li>
+                          
+                      </ul>
+                      
+                  </div>
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-6 text-center">
+                      <img class="zoom" src ="images/judges.png" style="padding-top:50px;height:50%;width:50%;margin:0 auto;display:block;">
+                      <p class="subheader" style="padding-top:10px;font-size:15px">REMEMBER! Judges' decisions are <b><i>final</i></b> so no arguing!</p>
+                       </div>
+                  
+                  
+                  
+                  
+              </div>
+              <div id="registration"class="tab-pane fade in text-left">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5 body" style="padding-top:35px;">
+                      <ul>
+                          <li style="font-size:20px">
+                              
+                              All participants must register online at http://www.pacomputerfair.org
+                          </li>
+                          <li style="font-size:20px">
+                              Registration for the regional competition must be completed and submitted by the date specified by the appropriate regional intermediate unit.
+                          </li>
+                          <li style="font-size:20px">
+                              Registrations for the state competition will be submitted by the intermediate unit.
+                          </li>
+                          <li style="font-size:20px">
+                              Students may participate individually or as a group. A student may submit an individual project and take part in a group project, however the projects cannot be in the same category.
+
+                          </li>
+                          
+                      </ul>
+                      
+                      
+                  </div>
+                  <div class="col-sm-5 body"style="padding-top:35px">
+                      <ul>
+                          <li style="font-size:20px">
+                              Groups will be limited to three students.
+                          </li>
+                          <li style="font-size:20px">
+                              Cash prizes awarded to a group project will be split a maximum of three ways.
+                          </li>
+                          <li style="font-size:20px">
+                              A faculty advisor/sponsor must be identified. The faculty advisor/sponsor will be responsible for accompanying students during the regional and state competitions.
+                          </li>
+                          <li style="font-size:20px">
+                              All communication will be provided through the faculty advisor/sponsor.
+                          </li>
+                      </ul>
+                      
+                      
+                  </div>
+                  <div class="col-sm-1"></div>
+              </div>
+      
+    </div>
+  </div>
+
+  </div>   
+  <footer class="container-fluid body" id="foot">
+
+<p>©2018  Chester County Intermediate Unit. All rights reserved. Designed and Developed by Josh Zhou and Nick Marcenelle. </p>
+<p>If you have any questions regarding the state competition, please contact <a href="mailto:dianet@cciu.org" style="color:white"><i>Diane Thompson</i></a></p>
+<p>
+    <button href="" class="btn btn-default button-footer" type="button" data-toggle="modal" data-target="#myModal">
+				<u>Works Cited</u>
+			</button>
+
+  
+		
+</p>
+<div id="myModal" class="modal fade modal-text" role="dialog" >
+<div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><font color="#000000">Works Cited</font></h4>
+      </div>
+     <div class="modal-body modal-text hanging-indent ">
+          <p>
+              PA High School Computer Fair, Chester County Intermediate Unit, 2018,<a href=”https://pacomputerfair.org/” target=”_blank”> pacomputerfair.org/</a>. This website provides information regarding the PA High School Computer Fair competition. I received permission from the owner of the website, Diane Thompson, to use all information and images used in the website on my website.
+
+          </p>
+          <p>
+							Otto, Mark, and Jacob Thornton. "Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework." Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework. Twitter, 2016. Web. 4 Feb. 2018. (<a href="https://getbootstrap.com/" target="_blank" style="color:blue">http://getbootstrap.com/</a>). The Bootstrap framework was used in this project to allow for cross-platform adaptability between various screen sizes and screen densities. All design choices and stylistic elements were of our own creation.
+						</p>
+        <p>
+          Dhakar, Lokesh. "Lightbox." Lightbox, 2010, <a href="lokeshdhakar.com/projects/ 
+     lightbox2/" target="_blank" style="color:blue">lokeshdhakar.com/projects/ 
+     lightbox2/</a>. Accessed 4 Feb. 2018. The Lightbox framework was used in this 
+     project to create slideshows of images and images expandable. 
+        </p>
+                        <p>
+                             Paepke, Jan. "ScrollMagic." Jan Paepke, 2015, <a href="http://scrollmagic.io/" target="_blank" style="color:blue">http://scrollmagic.io/</a>. Accessed 4 Feb. 2018. The ScrollMagic library allows the user to add custom scrolling and pinning effects to a webpage.
+
+                        </p>
+                        <p>
+                            Lloyd, Julian. "ScrollReveal." Julian Lloyd, 2018, <a href="https://scrollrevealjs.org/" target="_blank" style="color:blue">https://scrollrevealjs.org/</a>. Accessed 4 Feb. 2018. The ScrollReveal library allows the user to add professional scrolling effects to a webpage.
+
+                        </p>
+                        <p>
+                            Doyle, Jack, and Carl Schoof. "GreenSock." GreenSock, 2018, <a href="https://greensock.com//" target="_blank" style="color:blue">https://greensock.com/</a>. Accessed 4 Feb. 2018. The GreenSock library allows the user to make their webpages engaging by adding professional animations and transitions.
+
+                        </p>
+                        <p>
+                            
+                        </p>
+						<p>
+							Google Chrome. Computer software. Chrome for Desktop. Google, 2017. Web. 4 February 2018. (<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" style="color:blue">https://www.google.com/chrome/browser/desktop/index.html</a>).
+						</p>
+						<p>
+						    Information Info Tip Icon. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/information-info-tips-icon-1481584/" target="_blank">https://pixabay.com/en/information-info-tips-icon-1481584/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Photoshop Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Inkscape Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Illustrator Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    IMovie. Digital Image. Wikipedia. Wikipedia, 2018. Web. 1 Mar. 2018. (<a href="https://en.wikipedia.org/wiki/File:IMovie.png" target="_blank">https://en.wikipedia.org/wiki/File:IMovie.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Premiere Pro Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Cloud9 Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg" target="_blank">https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Dreamweaver Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Microsoft FrontPage Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    New Symbol. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/" target="_blank">https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Java. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png" target="_blank">https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Javascript Shield. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Javascript-shield.png" target="_blank">https://commons.wikimedia.org/wiki/File:Javascript-shield.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    HTML5 Logo and Wordmark. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg" target="_blank">https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Swift Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Swift_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Swift_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Ruby Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Ruby_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Ruby_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Python Logo. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/language-logo-python-2024210/" target="_blank">https://pixabay.com/en/language-logo-python-2024210/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe InDesign Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Gimp Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Blurred Video of Scripts Being Typed. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750" target="_blank">https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Typing Of Codes. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/typing-of-codes-854053" target="_blank">https://videos.pexels.com/videos/typing-of-codes-854053</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Man Drawing on a Piece of Paper. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423" target="_blank">https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Projector Cinema Film Demonstration Movie Projector. Digital Image. Max Pixel. FreeGreatPicture.com, 2018. Web. 1 Mar. 2018. (<a href="http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149" target="_blank">http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+						</p>
+					
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+</footer>
+    </body>
+    
+    
+    
+    
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PA Computer Fair</title>
+       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+       <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two" rel="stylesheet">
+
+     
+  
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+      
+    <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/imagehover.min.css">
+ <link rel="stylesheet" href="css/lightbox.css">
+
+
+
+
+        <script src="js/index.js"></script>
+        <script src="js/awards.js"></script>
+        <script src="js/lightbox.js"></script>
+    </head>
+    <body style="background-color:#448AFF">
+        
+           
+<!-- nav bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-special ">
+    <div class="container">
+      <div class="navbar-header"> 
+        <a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
+          <span class="icon-bar menu-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>  
+        <a class="navbar-brand" href="index.html" style="color: white; font-family: 'Raleway'; font-size:22px;"><b>PA Computer Fair</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="nav navbar-nav navbar-right ">
+          
+          <li ><a href="genInfo.html" style="color:white;font-size:18px;"><b>General Info</b></a></li>
+         
+         <li class="dropdown">
+          <a href="#" style="color: white ;font-size:18px;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Categories and Rules</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="animation.html" style="font-size:18px;padding-bottom:10px;padding-top:10px ">Animation</a></li>
+            
+            <li><a href="computerfairlogo.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Computer Fair Logo</a></li>
+            
+            <li><a href="digitalmovie.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Digital Movie</a></li>
+            
+            <li><a href="graphicdesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Graphic Design</a></li>
+            
+            <li><a href="programming.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Programming</a></li>
+            
+            <li><a href="webpagedesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Web Page Design</a></li>
+            
+          </ul>
+        </li>
+          <li ><a href="awards.html" style="color: white;font-size:18px;"><b>Awards</b></a></li>
+          <li><a href="regionalInfo.html" style="color: white;font-size:18px;"><b>Regional Info</b></a></li>
+          <li><a href="statecompetition.html" style="color: white;font-size:18px;"><b>State Info</b></a></li>
+          <li><a href="registration.html" style="color: white;font-size:18px;"><b>Registration</b></a></li>
+          <li><a href="awardwinner.html" style="color:white;font-size:18px;"><b>Results</b></a></li>
+          
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid " id="awardmain"style="padding-top:10px">
+  <div class="row">
+    <h1 class="header" style="text-align:center;font-size:80px;color:white;padding-top:45px;">Awards</h1>
+    <div class="col-sm-4" style="padding-top:25px;">
+          <div class="well text-center" >Second Place
+          <img src="images/silver.png"class="top" id="test2">
+                     <img src="images/newsilver.png"class="bottom" style="width:55px; height:55px;">
+                    
+      </div>
+          <h3 class="sub">$100*</h3>
+    </div>
+    <!--the transition becomes grainy due to resolution of the new medal img. Maybe change to higher resolution?-->
+<!--TODO: replace with higher res images --> 
+        <div class="col-sm-4" style="padding-top:0px;">
+          <div class="well text-center" >First Place
+           <img src="images/gold.png" class="top"  id="test">
+         <img src="images/newgold.png" class="bottom" style="width:55px; height:55px;">
+         
+      </div>
+      <h3 class="sub" >$150*</h3>
+    </div>   
+    <div class="col-sm-4" style="padding-bottom:80px;padding-top:40px" >
+          <div class="well text-center" >Third Place
+                <img src="images/bronze.png" class="top" id="test3">
+                    <img src="images/newbronze.png"class="bottom" style="width:55px; height:55px;">
+                    
+        </div>
+                <h3 class="sub" >$50*</h3>
+    </div>
+  </div>
+  <p style="font-size:20px;color:white;font-family:Lobster;padding-bottom:40px"align="center">*These prizes are awarded at the state competition. Regional prizes are determined by the local coordinators.</p>
+</div>
+
+<footer class="container-fluid body" id="foot">
+
+<p>©2018  Chester County Intermediate Unit. All rights reserved. Designed and Developed by Josh Zhou and Nick Marcenelle. </p>
+<p>If you have any questions regarding the state competition, please contact <a href="mailto:dianet@cciu.org" style="color:white"><i>Diane Thompson</i></a></p>
+<p>
+    <button href="" class="btn btn-default button-footer" type="button" data-toggle="modal" data-target="#myModal">
+				<u>Works Cited</u>
+			</button>
+
+  
+		
+</p>
+<div id="myModal" class="modal fade modal-text" role="dialog" >
+<div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><font color="#000000">Works Cited</font></h4>
+      </div>
+      <div class="modal-body modal-text hanging-indent ">
+          <p>
+              PA High School Computer Fair, Chester County Intermediate Unit, 2018,<a href=”https://pacomputerfair.org/” target=”_blank”> pacomputerfair.org/</a>. This website provides information regarding the PA High School Computer Fair competition. I received permission from the owner of the website, Diane Thompson, to use all information and images used in the website on my website.
+
+          </p>
+          <p>
+							Otto, Mark, and Jacob Thornton. "Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework." Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework. Twitter, 2016. Web. 4 Feb. 2018. (<a href="https://getbootstrap.com/" target="_blank" style="color:blue">http://getbootstrap.com/</a>). The Bootstrap framework was used in this project to allow for cross-platform adaptability between various screen sizes and screen densities. All design choices and stylistic elements were of our own creation.
+						</p>
+        <p>
+          Dhakar, Lokesh. "Lightbox." Lightbox, 2010, <a href="lokeshdhakar.com/projects/ 
+     lightbox2/" target="_blank" style="color:blue">lokeshdhakar.com/projects/ 
+     lightbox2/</a>. Accessed 4 Feb. 2018. The Lightbox framework was used in this 
+     project to create slideshows of images and images expandable. 
+        </p>
+                        <p>
+                             Paepke, Jan. "ScrollMagic." Jan Paepke, 2015, <a href="http://scrollmagic.io/" target="_blank" style="color:blue">http://scrollmagic.io/</a>. Accessed 4 Feb. 2018. The ScrollMagic library allows the user to add custom scrolling and pinning effects to a webpage.
+
+                        </p>
+                        <p>
+                            Lloyd, Julian. "ScrollReveal." Julian Lloyd, 2018, <a href="https://scrollrevealjs.org/" target="_blank" style="color:blue">https://scrollrevealjs.org/</a>. Accessed 4 Feb. 2018. The ScrollReveal library allows the user to add professional scrolling effects to a webpage.
+
+                        </p>
+                        <p>
+                            Doyle, Jack, and Carl Schoof. "GreenSock." GreenSock, 2018, <a href="https://greensock.com//" target="_blank" style="color:blue">https://greensock.com/</a>. Accessed 4 Feb. 2018. The GreenSock library allows the user to make their webpages engaging by adding professional animations and transitions.
+
+                        </p>
+                        <p>
+                            
+                        </p>
+						<p>
+							Google Chrome. Computer software. Chrome for Desktop. Google, 2017. Web. 4 February 2018. (<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" style="color:blue">https://www.google.com/chrome/browser/desktop/index.html</a>).
+						</p>
+						<p>
+						    Information Info Tip Icon. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/information-info-tips-icon-1481584/" target="_blank">https://pixabay.com/en/information-info-tips-icon-1481584/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Photoshop Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Inkscape Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Illustrator Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    IMovie. Digital Image. Wikipedia. Wikipedia, 2018. Web. 1 Mar. 2018. (<a href="https://en.wikipedia.org/wiki/File:IMovie.png" target="_blank">https://en.wikipedia.org/wiki/File:IMovie.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Premiere Pro Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Cloud9 Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg" target="_blank">https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Dreamweaver Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Microsoft FrontPage Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    New Symbol. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/" target="_blank">https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Java. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png" target="_blank">https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Javascript Shield. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Javascript-shield.png" target="_blank">https://commons.wikimedia.org/wiki/File:Javascript-shield.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    HTML5 Logo and Wordmark. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg" target="_blank">https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Swift Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Swift_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Swift_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Ruby Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Ruby_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Ruby_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Python Logo. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/language-logo-python-2024210/" target="_blank">https://pixabay.com/en/language-logo-python-2024210/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe InDesign Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Gimp Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Blurred Video of Scripts Being Typed. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750" target="_blank">https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Typing Of Codes. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/typing-of-codes-854053" target="_blank">https://videos.pexels.com/videos/typing-of-codes-854053</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Man Drawing on a Piece of Paper. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423" target="_blank">https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Projector Cinema Film Demonstration Movie Projector. Digital Image. Max Pixel. FreeGreatPicture.com, 2018. Web. 1 Mar. 2018. (<a href="http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149" target="_blank">http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+						</p>
+					
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+</footer>
+
+</body>
+    
+    
+    
+    
+</html>

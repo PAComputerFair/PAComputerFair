@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PA Computer Fair</title>
+       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+       <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+      
+    <link rel="stylesheet" href="css/genInfo.css">
+        <link rel="stylesheet" href="css/imagehover.min.css">
+ <link rel="stylesheet" href="css/lightbox.css">
+
+
+
+
+        <script src="js/index.js"></script>
+        <script src="js/awards.js"></script>
+        <script src="js/lightbox.js"></script>
+    </head>
+    <body style="background-color:#136BB7">
+        
+           
+<!-- nav bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-special ">
+    <div class="container">
+      <div class="navbar-header"> 
+        <a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
+          <span class="icon-bar menu-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>  
+        <a class="navbar-brand" href="index.html" style="color: white; font-family: 'Raleway'; font-size:22px;"><b>PA Computer Fair</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="nav navbar-nav navbar-right ">
+          
+          <li ><a href="genInfo.html" style="color:white;font-size:18px;"><b>General Info</b></a></li>
+         
+         <li class="dropdown">
+          <a href="#" style="color: white ;font-size:18px;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Categories and Rules</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="animation.html" style="font-size:18px;padding-bottom:10px;padding-top:10px ">Animation</a></li>
+            
+            <li><a href="computerfairlogo.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Computer Fair Logo</a></li>
+            
+            <li><a href="digitalmovie.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Digital Movie</a></li>
+            
+            <li><a href="graphicdesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Graphic Design</a></li>
+            
+            <li><a href="programming.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Programming</a></li>
+            
+            <li><a href="webpagedesign.html"style="font-size:18px;padding-bottom:10px;padding-top:10px ">Web Page Design</a></li>
+            
+          </ul>
+        </li>
+          <li ><a href="awards.html" style="color: white;font-size:18px;"><b>Awards</b></a></li>
+          <li><a href="regionalInfo.html" style="color: white;font-size:18px;"><b>Regional Info</b></a></li>
+          <li><a href="statecompetition.html" style="color: white;font-size:18px;"><b>State Info</b></a></li>
+          <li><a href="registration.html" style="color: white;font-size:18px;"><b>Registration</b></a></li>
+          <li><a href="awardwinner.html" style="color:white;font-size:18px;"><b>Results</b></a></li>
+          
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid genInfo-text "style="padding-top:10px">
+      <div class="text-center">
+      <h1 class="header" style="padding-top:10%;font-size:70px; color: white;" ><b>Regional Information</b></h1>
+     
+    </div>
+    <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 text-center">
+     <h3 class="subheader" style="padding-top:20px;font-size:25px;padding-bottom:50px; color: white;">Intermediate Unit committee members are in the process of updating their regional information pages. Please check back again for your regional computer fair information. </h3>
+    </div>
+     </div>
+	<div class="row" style="padding-bottom:50px;">
+	   <div class="col-sm-2"></div>
+       
+        <div class="col-sm-1"></div>
+		<div class="col-sm-6">
+		    
+                <div class="input-group" style="padding-bottom:10px" >
+                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                    <input class="form-control" id="system-search"type="text"  placeholder="Search for" required>
+                    
+                </div>
+		     <div class="scrollit">
+    	 <table class="table table-list-search body" style="background:white; border-radius:1%;">
+                    <thead>
+                        <tr class="special">
+                            <th>IU</th>
+                            <th>Contact Person(s)</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr>
+                            <td><a href="http://www.aiu3.net/Level3.aspx?id=1184" style="color:blue"target="_blank" class="body">Allegheny Intermediate Unit #3</a></td>
+                            <td><a href="mailto:amy.cribbs@aiu3.net" style="color:blue" class="body">Amy Cribbs</a></td>
+                           
+                        </tr>
+                      <tr>
+                            <td><a href="https://www.iu08.org/Page/293" style="color:blue"target="_blank"class="body">Appalachia Intermediate Unit #8</a></td>
+                            <td><a href="mailto:ekoontz@iu08.org" style="color:blue"class="body">Ellen Koontz</a><br/>
+                            <a href="mailto:scerully@iu08.org" style="color:blue"class="body">Shawn Cerully</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.iu28.org/Page/525" style="color:blue"target="_blank"class="body">ARIN Intermediate Unit #28</a></td>
+                            <td><a href="mailto:lrodgers@iu28.org" style="color:blue"class="body">Lori Rodgers</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="http://www.berksiu.org/programs-services/professional-development-curriculum-programs/technology/high-school-computer-fair/" style="color:blue"target="_blank">Berks County Intermediate Unit #14</a></td>
+                            <td><a class="body"href="mailto:marmcg@berksiu.org" style="color:blue">Marcelle McGhee</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body" href="https://www.iu17.org/2018-regional-computer-fair/" style="color:blue"target="_blank">BLaST Intermediate Unit #17</a></td>
+                            <td><a class="body"href="mailto:smoll@iu17.org" style="color:blue">Scott Moll</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body"href="https://www3.bucksiu.org/cf" style="color:blue"target="_blank">Bucks County Intermediate Unit #22</a></td>
+                            <td><a class="body"href="mailto:MReiman@Bucksiu.org" style="color:blue">Matthew Reiman</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="http://www.caiu.org/Schools_and_Districts/technology-services/instructional-technology-services/computer-fair#" style="color:blue"target="_blank">Capital Area Intermediate Unit #15</a></td>
+                            <td><a class="body" href="mailto:jneuhard@caiu.org" style="color:blue">Jill Neuhard</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="https://www.cliu.org/Page/707" style="color:blue"target="_blank">Carbon-Lehigh Intermediate Unit #21</a></td>
+                            <td><a class="body"href="mailto:oulyd@cliu.org" style="color:blue">Diahann Snisky(Ouly)</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="https://www.ciu10.org/domain/59" style="color:blue"target="_blank">Central Intermediate Unit #10</a></td>
+                            <td><a class="body"href="mailto:trowles@ciu10.org" style="color:blue">Tom Rowles</a>
+                            </td>
+                           
+                        </tr>
+                      <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU16.html" style="color:blue"target="_blank">Central Susquehanna Intermediate Unit #16</a></td>
+                            <td><a class="body"href="mailto:bherald@csiu.org" style="color:blue">Bill Herald</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU24.html" style="color:blue"target="_blank">Chester County Intermediate Unit #24</a></td>
+                            <td><a class="body"href="mailto:dianet@cciu.org" style="color:blue">Diane Thompson</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body" href="https://www.ciu20.org/computerfair" style="color:blue"target="_blank">Colonial Intermediate Unit #20</a></td>
+                            <td><a class="body"href="mailto:skandianis@ciu20.org" style="color:blue">Susan Kandianis</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="https://www.dciu.org" style="color:blue"target="_blank">Delaware County Intermediate Unit #25</a></td>
+                            <td><a class="body"href="mailto:jregino@dciu.org" style="color:blue">Jonathan Regino</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU01.html" style="color:blue"target="_blank">Intermediate Unit #1</a></td>
+                            <td><a class="body"href="mailto:krisin.vanstrien@iu1.org" style="color:blue">Kristin Van Strien</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td class="body">Lancaster Lebanon Intermediate Unit #13</td>
+                            <td class="body"><a  class="body" href="mailto:karen_oberly@iu13.org" style="color:blue">Karen Oberly</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU12.html" style="color:blue"target="_blank">Lincoln Intermediate Unit #12</a></td>
+                            <td><a class="body"href="mailto:ambaum@iu12.org" style="color:blue">Ann Baum</a><br/>
+                            <a class="body"href="mailto:PLBarker@iu12.org" style="color:blue">Pat Barker</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU18.html" style="color:blue"target="_blank">Luzerne Intermediate Unit #18</a></td>
+                            <td><a class="body"href="mailto:jjeffery@liu18.org" style="color:blue">Jane Jeffery</a><br/>
+                            <a class="body"href="mailto:tyost@liu18.org" style="color:blue">Ty Yost</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td class="body">Midwestern Intermediate Unit #4</td>
+                            <td><a class="body" href="mailto:scott_powner@miu4.k12.pa.us" style="color:blue">Scott Powner</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body" href="http://www.pacomputerfair.org/regional/RegionalIU23.html" style="color:blue"target="_blank">Montgomery County Intermediate Unit #23</a></td>
+                            <td><a class="body"href="mailto:jkrail@mciu.org" style="color:blue">Jackie Krail</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><a class="body"href="http://www.pacomputerfair.org/regional/RegionalIU19.html" style="color:blue"target="_blank">Northeastern Educational Intermediate Unit #19</a></td>
+                            <td><a class="body"href="mailto:kwilliams@iu19.org" style="color:blue">Kevin Williams</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td class="body">Riverview Intermediate Unit #6</td>
+                            <td><a class="body"href="mailto:kboyles@riu6.org" style="color:blue">Kelsi Wilcox Boyles</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="http://webgui.phila.k12.pa.us/offices/e/etg/programs--services/computer-competitions" style="color:blue"target="_blank">School District of Philadelphia #26</a></td>
+                            <td><a class="body"href="mailto:tmcgrath@philsd.org" style="color:blue">Tracy McGrath</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="https://www.iu29.org/Page/99" style="color:blue"target="_blank">Schuylkill County Intermediate Unit #29</a></td>
+                            <td><a class="body"href="mailto:law@iu29.org" style="color:blue">Lynn Ann Wiscount</a>
+                            </td>
+                           
+                        </tr>
+                         <tr>
+                            <td><a class="body"href="http://www.mrmacer.com/iu9" style="color:blue"target="_blank">Seneca Highlands Intermediate Unit #9	</a></td>
+                            <td><a class="body"href="mailto:gmacer@iu9.org" style="color:blue">Greg Macer</a>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td class="body">Tuscarora Intermediate Unit #11</td>
+                            <td><a class="body"href="mailto:eyoder@tiu11.org" style="color:blue">Eric Yoder</a>
+                            </td>
+                           
+                        </tr>
+                    </tbody>
+                </table>   
+		</div>
+		</div>
+    </div>
+</div>
+  
+  <footer class="container-fluid body" id="foot">
+
+<p>©2018  Chester County Intermediate Unit. All rights reserved. Designed and Developed by Josh Zhou and Nick Marcenelle. </p>
+<p>If you have any questions regarding the state competition, please contact <a href="mailto:dianet@cciu.org" style="color:white"><i>Diane Thompson</i></a></p>
+<p>
+    <button href="" class="btn btn-default button-footer" type="button" data-toggle="modal" data-target="#myModal">
+				<u>Works Cited</u>
+			</button>
+
+ 
+		
+</p>
+<div id="myModal" class="modal fade modal-text" role="dialog" >
+<div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><font color="#000000">Works Cited</font></h4>
+      </div>
+    <div class="modal-body modal-text hanging-indent ">
+          <p>
+              PA High School Computer Fair, Chester County Intermediate Unit, 2018,<a href=”https://pacomputerfair.org/” target=”_blank”> pacomputerfair.org/</a>. This website provides information regarding the PA High School Computer Fair competition. I received permission from the owner of the website, Diane Thompson, to use all information and images used in the website on my website.
+
+          </p>
+          <p>
+							Otto, Mark, and Jacob Thornton. "Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework." Bootstrap · The World's Most Popular Mobile-first and Responsive Front-end Framework. Twitter, 2016. Web. 4 Feb. 2018. (<a href="https://getbootstrap.com/" target="_blank" style="color:blue">http://getbootstrap.com/</a>). The Bootstrap framework was used in this project to allow for cross-platform adaptability between various screen sizes and screen densities. All design choices and stylistic elements were of our own creation.
+						</p>
+        <p>
+          Dhakar, Lokesh. "Lightbox." Lightbox, 2010, <a href="lokeshdhakar.com/projects/ 
+     lightbox2/" target="_blank" style="color:blue">lokeshdhakar.com/projects/ 
+     lightbox2/</a>. Accessed 4 Feb. 2018. The Lightbox framework was used in this 
+     project to create slideshows of images and images expandable. 
+        </p>
+                        <p>
+                             Paepke, Jan. "ScrollMagic." Jan Paepke, 2015, <a href="http://scrollmagic.io/" target="_blank" style="color:blue">http://scrollmagic.io/</a>. Accessed 4 Feb. 2018. The ScrollMagic library allows the user to add custom scrolling and pinning effects to a webpage.
+
+                        </p>
+                        <p>
+                            Lloyd, Julian. "ScrollReveal." Julian Lloyd, 2018, <a href="https://scrollrevealjs.org/" target="_blank" style="color:blue">https://scrollrevealjs.org/</a>. Accessed 4 Feb. 2018. The ScrollReveal library allows the user to add professional scrolling effects to a webpage.
+
+                        </p>
+                        <p>
+                            Doyle, Jack, and Carl Schoof. "GreenSock." GreenSock, 2018, <a href="https://greensock.com//" target="_blank" style="color:blue">https://greensock.com/</a>. Accessed 4 Feb. 2018. The GreenSock library allows the user to make their webpages engaging by adding professional animations and transitions.
+
+                        </p>
+                        <p>
+                            
+                        </p>
+						<p>
+							Google Chrome. Computer software. Chrome for Desktop. Google, 2017. Web. 4 February 2018. (<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" style="color:blue">https://www.google.com/chrome/browser/desktop/index.html</a>).
+						</p>
+						<p>
+						    Information Info Tip Icon. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/information-info-tips-icon-1481584/" target="_blank">https://pixabay.com/en/information-info-tips-icon-1481584/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Photoshop Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Inkscape Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Illustrator Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    IMovie. Digital Image. Wikipedia. Wikipedia, 2018. Web. 1 Mar. 2018. (<a href="https://en.wikipedia.org/wiki/File:IMovie.png" target="_blank">https://en.wikipedia.org/wiki/File:IMovie.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Premiere Pro Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Cloud9 Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg" target="_blank">https://commons.wikimedia.org/wiki/File:Cloud9_Logo.jpg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe Dreamweaver Icon. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_Dreamweaver_CS6_Icon.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Microsoft FrontPage Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Microsoft_FrontPage_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    New Symbol. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/" target="_blank">https://pixabay.com/en/new-new-logo-new-sign-new-design-32199/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Java. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png" target="_blank">https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B0%D0%B2%D0%B0.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Javascript Shield. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Javascript-shield.png" target="_blank">https://commons.wikimedia.org/wiki/File:Javascript-shield.png</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    HTML5 Logo and Wordmark. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg" target="_blank">https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Swift Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Swift_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Swift_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Ruby Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Ruby_logo.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Ruby_logo.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Python Logo. Digital Image. Pixabay. Pixabay, 2018. Web. 1 Mar. 2018. (<a href="https://pixabay.com/en/language-logo-python-2024210/" target="_blank">https://pixabay.com/en/language-logo-python-2024210/</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Adobe InDesign Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Gimp Logo. Digital Image. Wikipedia Commons. Wikipedia Commons, 2018. Web. 1 Mar. 2018. (<a href="https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg" target="_blank">https://commons.wikimedia.org/wiki/File:GIMP_Icon.svg</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+
+						</p>
+						<p>
+						    Blurred Video of Scripts Being Typed. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750" target="_blank">https://videos.pexels.com/videos/blurred-video-of-scripts-being-typed-853750</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Typing Of Codes. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/typing-of-codes-854053" target="_blank">https://videos.pexels.com/videos/typing-of-codes-854053</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Man Drawing on a Piece of Paper. Digital Video. Pexels Videos. Pexels, 2018. Web. 1 Mar. 2018. (<a href="https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423" target="_blank">https://videos.pexels.com/videos/man-drawing-on-a-piece-of-paper-852423</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description) I altered the video using giphy.com to change it into a gif file. 
+
+						</p>
+						<p>
+						    Projector Cinema Film Demonstration Movie Projector. Digital Image. Max Pixel. FreeGreatPicture.com, 2018. Web. 1 Mar. 2018. (<a href="http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149" target="_blank">http://maxpixel.freegreatpicture.com/Projector-Cinema-Film-Demonstration-Movie-Projector-64149</a>). This picture uses the CC0 Creative Commons License and is free to use by any person without attribution (as per the image description). 
+						</p>
+					
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+</footer>
+  
+  <script>
+    $(document).ready(function() {
+    var activeSystemClass = $('.list-group-item.active');
+
+    //something is entered in search form
+    $('#system-search').keyup( function() {
+       var that = this;
+        // affect all table rows on in systems table
+        var tableBody = $('.table-list-search tbody');
+        var tableRowsClass = $('.table-list-search tbody tr');
+        $('.search-sf').remove();
+        tableRowsClass.each( function(i, val) {
+        
+            //Lower text for case insensitive
+            var rowText = $(val).text().toLowerCase();
+            var inputText = $(that).val().toLowerCase();
+            if(inputText != '')
+            {
+                $('.search-query-sf').remove();
+                tableBody.prepend('<tr class="search-query-sf"><td colspan="6"><strong>Searching for: "'
+                    + $(that).val()
+                    + '"</strong></td></tr>');
+            }
+            else
+            {
+                $('.search-query-sf').remove();
+            }
+
+            if( rowText.indexOf( inputText ) == -1 )
+            {
+                //hide rows
+                tableRowsClass.eq(i).hide();
+                
+            }
+            else
+            {
+                $('.search-sf').remove();
+                tableRowsClass.eq(i).show();
+            }
+        });
+        //all tr elements are hidden
+        if(tableRowsClass.children(':visible').length == 0)
+        {
+            tableBody.append('<tr class="search-sf"><td class="text-muted" colspan="6">No entries found.</td></tr>');
+        }
+    });
+});
+  </script>
+</body>
+    
+    
+    
+    
+</html>
