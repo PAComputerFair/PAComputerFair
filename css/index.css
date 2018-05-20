@@ -298,13 +298,13 @@ linear-gradient(
 .navbar-nav > li.dropdown.open > a{color:grey !important;}
 .navbar-nav > li > .dropdown-menu > li > a:hover{    background-color: #666865 !important; color:black !important; }
 
-.navbar-brandnew:hover{color:black !important;}
-.navbar-states > li>a:hover{color: black !important;}
-.navbar-stated:hover{color:black!important;}
+.navbar-brandnew:hover{color:#D1D1D1 !important;}
+.navbar-states > li>a:hover{color: #D1D1D1 !important;}
+.navbar-stated:hover{color:#D1D1D1!important;}
 .navbar-states > li.dropdown.active.open > a, 
 .navbar-states > li.dropdown.active.open > ul.dropdown-menu a:hover,
 .navbar-states > li.dropdown.open > a{background-color:rgba(0,0,0,0)!important;}
-.navbar-states > li.dropdown.open > a{color:black !important;}
+.navbar-states > li.dropdown.open > a{color:#D1D1D1 !important;}
 .navbar-states > li > .dropdown-menu > li > a:hover{    background-color: #666865 !important;  }
 .scroll-down{
   position: relative;
